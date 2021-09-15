@@ -39,7 +39,8 @@ PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
     update_engine \
-    update_verifier
+    update_verifier \
+    fastbootd
 
 PRODUCT_PACKAGES += \
     bootctrl.$(PRODUCT_PLATFORM) \

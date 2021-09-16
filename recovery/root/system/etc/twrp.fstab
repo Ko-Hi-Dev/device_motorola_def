@@ -17,7 +17,7 @@
 
 # Removable storage
 /external_sd     auto       /dev/block/mmcblk0p1    /dev/block/mmcblk0            flags=display="Micro SDcard";storage;wipeingui;removable
-/usbstorage      vfat    /dev/block/sdg1                            /dev/block/sdg     flags=fsflags=utf8;display="USB Storage";storage;wipeingui;removable
+/usb-otg         auto       /dev/block/sdg1         /dev/block/sdg                flags=display="USB OTG";storage;wipeingui;removable
 
 # Dyanmic Partitions
 system		/system			ext4	     display="System"
